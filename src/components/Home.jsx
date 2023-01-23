@@ -21,7 +21,7 @@ const Home = () => {
             <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-gray-700">
               Generate a link for your endpoint now
             </h5>
-            <p className="mb-5 text-base text-gray-600 sm:text-lg dark:text-gray-600">
+            <p className="mb-5 text-base italic text-gray-600 sm:text-lg dark:text-gray-600">
               The generated short-url below won&apos;t be cached and will be
               auto deleted in 24Hrs.For a long term and cached url Register for
               an account{" "}

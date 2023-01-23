@@ -21,7 +21,7 @@ const Projects = () => {
             </svg>
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-gray-900">
-            Deployment Web Application v1.0.0{" "}
+            Deployment Web Application{" "}
             <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
               On Progress
             </span>
@@ -30,11 +30,11 @@ const Projects = () => {
             Web Application will Be Released on February 4th, 2023
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            This will be in a Private Repository
+            React, Golang, MongoDB
           </p>
           <Link
             to="/"
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            className="disabled inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
           >
             Github Repository
           </Link>
@@ -56,13 +56,13 @@ const Projects = () => {
             </svg>
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-gray-900">
-            Developer Jokes Api v1.1.0
+            Developer Jokes Api
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Released on December 7th, 2022
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-500">
-            Written in Golang
+            Golang
           </p>
           <Link
             to="/"
@@ -88,13 +88,13 @@ const Projects = () => {
             </svg>
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-gray-900">
-            Alinker Api v1
+            Alinker Api
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Released on December 2nd, 2022
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            The Back-End Api for this Web application.
+            The Back-End Api for this Web application...
           </p>
           <Link
             to="/"

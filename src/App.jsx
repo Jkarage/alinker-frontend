@@ -3,12 +3,11 @@ import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Routes, Route } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
-import Registration from "./components/Registration";
-import Login from "./components/Login";
 import Home from "./components/Home";
 import Documentation from "./components/Documentation";
-import ResetPassword from "./components/ResetPassword";
-import Donation from "./components/Pricing";
+import Footer from "./components/Footer";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -21,18 +20,18 @@ const queryClient = new QueryClient({
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-white">
       <BrowserRouter>
         <QueryClientProvider client={queryClient}>
           <NavigationBar />
           <Routes>
-            <Route path="/register" element={<Registration />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/reset" element={<ResetPassword />} />
-            <Route path="/donate" element={<Donation />} />
             <Route path="/docs" element={<Documentation />} />
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
+
+          <Footer />
         </QueryClientProvider>
       </BrowserRouter>
     </div>
